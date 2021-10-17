@@ -1,0 +1,53 @@
+.footer_container {
+    background-color: #002635;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer_container h1 {
+    font-size: 24px;
+}
+
+.footer_container input, .footer_container select, .footer_container textarea{
+    color: white;
+}
+
+.footer_container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer_container h2 {
+    font-size: 20px;
+}
+
+.footer-one-third {
+    margin: 20px 40px;
+}
+
+.first-footer-elem {
+    text-align: left;
+}
+
+.second-footer-elem {
+    text-align: center;
+}
+
+.third-footer-elem {
+    text-align: right;
+}
+
+.gold-first-letter::first-letter {
+    color: #B99641;
+}
+
+.input-email-NL {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 80%;
+}
+
+.input-email-NL::placeholder {
+    color: white;
+}
