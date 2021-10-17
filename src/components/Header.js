@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className="header_container">
             <div className="header_logo_container">
-                <a href="">
+                <a href="/">
                     <img src={logo_round} className="header_logo_round" alt="logo_rond_vhex"></img>
                     <img src={logo_text} className="header_logo_text" alt="logo_text_vhex"></img>
                 </a>
