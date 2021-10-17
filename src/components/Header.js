@@ -1,4 +1,4 @@
-import logo_round from '../assets/logo_round_vhex.JPG';
+import logo_round from '../assets/logo_round_vhex.png';
 import logo_text from '../assets/logo_text_vhex.JPG';
 import logo_account from '../assets/logo_account.JPG';
 import '../styles/global.css';

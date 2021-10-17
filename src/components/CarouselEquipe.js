@@ -26,6 +26,8 @@ function displayPrevious() {
             tab[i].style.visibility = "hidden";
             tab[i].style.opacity = "0";
         } else {
+            tab[i].style.visibility = "hidden";
+            tab[i].style.opacity = "0";
             tab[i].classList.add("diapo-fade-out");
         }
         if (tab[i + 1] === undefined) {
@@ -80,7 +82,7 @@ function CarouselEquipe() {
     return (
         <div className="landing_page_container">
            <div className="carousel_equipe_container">
-                <h1 className="carousel_title">OUR TEAM</h1>
+                <h1 className="carousel_title gold-title">OUR TEAM</h1>
                 <div className="carousel_card_container">
                     <button onClick={displayPrevious} className="left-arrow"><img src={leftArrow} alt="left-arrow"></img></button>
                     <div className="carousel_card diapo-fade-in">
