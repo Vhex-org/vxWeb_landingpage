@@ -1,0 +1,45 @@
+@media (prefers-reduced-motion: no-preference) {
+    .header_logo_round {
+        animation: spin_logo infinite 21s linear;
+    }
+}
+
+@keyframes spin_logo {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 33px;
+    background-color: #002635;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+.header_container img {
+    height: 80px;
+}
+
+.header_menu_entry_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.header_menu_entry::first-letter {
+    color: #B99641;
+}
+
+h1.header_menu_entry {
+    margin: auto;
+    font-size: 2.4em;
+}
