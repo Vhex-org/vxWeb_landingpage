@@ -1,0 +1,23 @@
+.intro_container {
+    width: 50vw;
+    margin: 80px auto 20px;
+}
+
+.intro_content {
+    font-size: 22px;
+}
+
+.intro_read_more {
+    background-color: transparent;
+    border: none;
+    margin: 0 calc(25vw - 25px);
+}
+
+.intro_read_more img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.intro_read_more_content {
+    display: none;
+}
