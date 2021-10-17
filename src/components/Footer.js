@@ -7,7 +7,7 @@ function Footer() {
             <div className="footer-one-third first-footer-elem">
                 <h1>POUR NE RIEN RATER</h1>
                 <h2>Inscris-toi à la newsletter</h2>
-                <div>
+                <div className="email-NL-container">
                     <input className="input-email-NL" placeholder="Email"></input>
                     <button className="ok-button">OK</button>
                 </div>

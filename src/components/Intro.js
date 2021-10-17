@@ -19,7 +19,7 @@ function Intro() {
                 Le projet est basé sur la philosophie du projet Symbolibre mais avec un objectif différent.<br/>
                 De nos jours, Symbolibre se veut à être une calculatrice libre et avec le fait que la machine doit être construite par les étudiants. Nous pensons que cette fonctionnalité est très importante pour comprendre exactement le fonctionnement d’une technologie embarquée, ce qui facilite beaucoup la visualisation de certains mécanismes assez obscurs quand on programme en bas-niveau.<br/>
             </p>
-            <button onClick={readMore} className="intro_read_more"><img src={downArrow}></img></button>
+            <button onClick={readMore} className="intro_read_more"><img src={downArrow} alt="down-arrow-logo"></img></button>
             <p className="intro_content intro_read_more_content">
                 Nous savons que beaucoup d’école commence à promouvoir la programmation dans leur cours. Mais généralement, ce ne sont que de petits programmes textuels qui sont utilisés pour démontrer certaines notions apprises récemment. Ce qui n’est pas très flatteur pour l’étudiant et aussi vis-à-vis du domaine abordé. Nous pensons qu’il sera beaucoup plus attractif et intéressant pour l’étudiant de clairement visualiser les matières étudiées en cours comme les mathématiques et la science (domaine qui sont pratiquement constamment abordés quand on essaie de programmer un petit jeu vidéo).<br/>
                 <br/>

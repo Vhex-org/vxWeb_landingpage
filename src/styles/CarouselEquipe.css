@@ -5,13 +5,18 @@
     align-items: center;
 }
 
+.carousel_title {
+    margin-bottom: 80px;
+}
+
 .carousel_card_container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
+    width: 95vw;
     height: 20vw;
+    margin-bottom: 120px;
 }
 
 .carousel_card_container .left-arrow {
