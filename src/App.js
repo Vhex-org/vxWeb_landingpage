@@ -1,6 +1,7 @@
 import Header from './components/Header';
-import LandingPage from './components/LandingPage';
+import CarouselEquipe from './components/CarouselEquipe';
 import Footer from './components/Footer';
+import Intro from './components/Intro';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
         <Header/>
       </header>
       <div className="App-content">
-        <LandingPage/>
+        <Intro/>
+        <CarouselEquipe/>
       </div>
       <footer className="App-footer">
         <Footer/>

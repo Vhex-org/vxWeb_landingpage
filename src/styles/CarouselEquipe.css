@@ -1,0 +1,98 @@
+.carousel_equipe_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel_card_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 20vw;
+}
+
+.carousel_card_container .left-arrow {
+    margin-right: 200px;
+    width: 42px;
+    height: 42px;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel_card_container .left-arrow img {
+    width: inherit;
+    height: inherit;
+}
+
+.carousel_card_container .right-arrow {
+    margin-left: 200px;
+    width: 42px;
+    height: 42px;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel_card_container .right-arrow img {
+    width: inherit;
+    height: inherit;
+}
+
+.carousel_card {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.carousel_card:first-of-type {
+    visibility: visible;
+    opacity: 1;
+}
+
+.diapo-fade-in {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0ms, opacity 800ms;
+}
+
+.diapo-fade-out {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 800ms, opacity 800ms;
+}
+
+.carousel_card_img {
+    height: 20vw;
+    width: 20vw;
+    object-fit: contain;
+}
+
+.carousel_card_info {
+    padding-left: 30px;
+    text-align: center;
+}
+
+.teammate-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.teammate-name::first-letter {
+    color: #B99641;
+}
+
+.teammate-last-name {
+    margin-left: 12px;
+}
