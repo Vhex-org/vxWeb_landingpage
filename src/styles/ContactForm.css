@@ -1,0 +1,126 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px auto;
+    padding: 50px 5vw;
+    width: 70vw;
+    max-width: 1300px;
+    background-color: #002635;
+}
+
+.contact-left-right-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vw;
+    max-width: 650px;
+    background-color: #002635;
+}
+
+.contact-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vw;
+    max-width: 650px;
+    background-color: #002635;
+    margin-left: 33px;
+}
+
+
+.contact-container .first-letter-g::first-letter {
+    color: #B99641;
+}
+
+.contact-container .contact-select-reason {
+    font-weight: bold;
+}
+
+.contact-container * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-container * {
+    margin-top: 10px;
+}
+
+.contact-container .contact-left-container > * {
+    margin: 20px 0;
+}
+
+.contact-left-container > input {
+    border: 0;
+    border-bottom: 2px solid #B99641;
+    background: #002635;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-left-container > input::placeholder {
+    color: white;
+    text-transform: inherit;
+    font-weight: normal;
+}
+
+.contact-left-container > input:focus {
+    color: white;
+    text-transform: inherit;
+    font-weight: normal;
+}
+
+.contact-agreement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-agreement input {
+    margin-right: 15px;
+    margin-top: 0;
+}
+
+.contact-container select {
+    border: 0;
+    border-bottom: 2px solid #B99641;
+    background: transparent;
+    color: white;
+}
+
+.contact-container select option {
+    background: #002635;
+}
+
+.contactform-title {
+    text-align: center;
+}
+
+.contact-container .contact-input-msg {
+    background-color: white;
+    border: 2px solid #B99641;
+    border-radius: 5px;
+    padding: 15px;
+    height: 100%;
+}
+
+.contact-container .contact-send-form {
+    border-radius: 25px;
+    border: 1px solid #B99641;
+    background: #001120;
+    color: #B99641;
+    font-weight: bold;
+    padding: 15px;
+    width: 200px;
+    margin: 80px auto 0;
+}
+
+.contact-container .contact-send-form:hover {
+    background: #B99641;
+    color: #002635;
+    cursor: pointer;
+}
