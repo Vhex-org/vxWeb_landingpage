@@ -115,7 +115,7 @@
     border-radius: 25px;
     border: 1px solid #B99641;
     background: #001120;
-    color: #B99641;
+    color: white;
     font-weight: bold;
     padding: 15px;
     width: 200px;
@@ -124,6 +124,6 @@
 
 .contact-container .contact-send-form:hover {
     background: #B99641;
-    color: #002635;
+    color: white;
     cursor: pointer;
 }
