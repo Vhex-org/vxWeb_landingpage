@@ -1,12 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import ContactForm from './components/ContactForm';
+
+const Routing = () => {
+  return(
+    <BrowserRouter>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/contact" element={<ContactForm />} />
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
+  )
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Routing />
   </React.StrictMode>,
   document.getElementById('root')
 );
