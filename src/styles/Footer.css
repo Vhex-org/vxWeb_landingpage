@@ -8,6 +8,11 @@
     font-size: 24px;
 }
 
+.footer-one-third li a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .footer_container input, .footer_container select, .footer_container textarea{
     color: white;
 }

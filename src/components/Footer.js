@@ -15,7 +15,7 @@ function Footer() {
             <div className="footer-one-third second-footer-elem">
                 <h1>BESOIN D'AIDE ?</h1>
                 <ul>
-                    <li>Contact</li>
+                    <li><a href="/contact">Contact</a></li>
                     <li>FAQ</li>
                     <li>Qui sommes-nous ?</li>
                 </ul>
