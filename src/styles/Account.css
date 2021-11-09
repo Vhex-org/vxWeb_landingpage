@@ -51,6 +51,14 @@
     font-weight: bold;
 }
 
+.account-pw {
+    align-self: end;
+    position: relative;
+    margin-top: -30px;
+    right: 10px;
+    cursor: pointer;
+}
+
 .account-input-container > input:focus {
     color: white;
     font-weight: 200;
