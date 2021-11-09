@@ -20,7 +20,7 @@ function Header() {
                 <h1 className="header_menu_entry header_menu_shop">SHOP</h1>
             </div>
             <div className="header_account_container">
-                <img src={logo_account} alt="logo_account"></img>
+                <a href="/account"><img src={logo_account} alt="logo_account"></img></a>
             </div>
         </div>
     );

@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
+import Account from './components/Account';
 
 const Routing = () => {
   return(
@@ -15,6 +16,7 @@ const Routing = () => {
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/contact" element={<ContactForm />} />
+        <Route path="/account" element={<Account />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
