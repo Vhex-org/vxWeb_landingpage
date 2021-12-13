@@ -14,16 +14,36 @@ app.get('/', (req, res) => {
 
 app.listen(4567, () => console.log("running on port 4567"));
 
-app.get('/send-email', (req, res) => {
+app.get('/send-email-vhex', (req, res) => {
     res.send('Welcome to the Sendgrid Email Server');
 
     const { recipient, sender, topic, text } = req.query;
+
+    var customerInfo = "Customer's Email: " + recipient + "\n";
+
+    const msg = {
+        to: "vhex.eip@gmail.com",
+        from: sender,
+        subject: topic,
+        text: customerInfo + text,
+    }
+
+    sgMail.send(msg)
+    .then((msg) => console.log(text))
+});
+
+app.get('/send-email-customer', (req, res) => {
+    res.send('Welcome to the Sendgrid Email Server');
+
+    const { recipient, sender, topic, text, firstName, lastName } = req.query;
+
+    var welcomeMe = "Hello " + firstName + " " + lastName + ",\n\n";
 
     const msg = {
         to: recipient,
         from: sender,
         subject: topic,
-        text: text,
+        text: welcomeMe + text,
     }
 
     sgMail.send(msg)
