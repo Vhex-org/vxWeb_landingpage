@@ -15,8 +15,8 @@ class ContactForm extends Component {
             sender: 'vhex.eip@gmail.com',
             subject: 'Contact Vhex',
             text: 'We have received your request and will respond as soon as it is processed !',
-            firstName: '',
-            lastName: ''
+            firstname: 'Salut',
+            lastname: 'ça va'
         }
     }
 
@@ -28,7 +28,7 @@ class ContactForm extends Component {
 
     // sendEmailCustomer = _ => {
     //     const { emailCustomer } = this.state;
-    //     fetch(`http://127.0.0.1:4567/send-email-customer?recipient=${emailCustomer.recipient}&sender=${emailCustomer.sender}&topic=${emailCustomer.subject}&text=${emailCustomer.text}&firstName=${emailCustomer.firstName}&lastName=${emailCustomer.lastName}`)
+    //     fetch(`http://127.0.0.1:4567/send-email-customer?recipient=${emailCustomer.recipient}&sender=${emailCustomer.sender}&topic=${emailCustomer.subject}&text=${emailCustomer.text}&firstname=${emailCustomer.firstname}&lastname=${emailCustomer.lastname}`)
     //     .catch(err => console.log(err))
     // }
 
@@ -51,9 +51,9 @@ class ContactForm extends Component {
                     <div className="contact-left-right-container">
                         <div className="contact-left-container">
                             <input className="first-letter-g contact-first-name" placeholder="Prénom *"
-                                onChange={e => this.setState({ emailCustomer: { ...emailCustomer, firstName: e.target.value } })}/>
+                                onChange={e => this.setState({ emailCustomer: { ...emailCustomer, firstname: e.target.value } })}/>
                             <input className="first-letter-g contact-last-name" placeholder="NOM *"
-                                onChange={e => this.setState({ emailCustomer: { ...emailCustomer, lastName: e.target.value } })}/>
+                                onChange={e => this.setState({ emailCustomer: { ...emailCustomer, lastname: e.target.value } })}/>
                             <input placeholder="Email *"
                                 onChange={e => this.setState({ emailCustomer: { ...emailCustomer, recipient: e.target.value }, emailVhex: { ...emailVhex, recipient: e.target.value } })}/>
                             <div className="contact-agreement">
@@ -69,7 +69,7 @@ class ContactForm extends Component {
                     <button className="contact-send-form" onClick={(e) => {
                         fetch(`http://127.0.0.1:4567/send-email-vhex?recipient=${emailVhex.recipient}&sender=${emailVhex.sender}&topic=${emailVhex.subject}&text=${emailVhex.text}`)
                         .catch(err => console.log(err));
-                        fetch(`http://127.0.0.1:4567/send-email-customer?recipient=${emailCustomer.recipient}&sender=${emailCustomer.sender}&topic=${emailCustomer.subject}&text=${emailCustomer.text}&firstName=${emailCustomer.firstName}&lastName=${emailCustomer.lastName}`)
+                        fetch(`http://127.0.0.1:4567/send-email-customer?recipient=${emailCustomer.recipient}&sender=${emailCustomer.sender}&topic=${emailCustomer.subject}&text=${emailCustomer.text}&firstname=${emailCustomer.firstname}&lastname=${emailCustomer.lastname}`)
                         .catch(err => console.log(err));
                     }}>CONFIRMER</button>
                 </div>

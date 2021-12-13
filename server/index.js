@@ -19,7 +19,7 @@ app.get('/send-email-vhex', (req, res) => {
 
     const { recipient, sender, topic, text } = req.query;
 
-    var customerInfo = "Customer's Email: " + recipient + "\n";
+    var customerInfo = "Customer's Email: " + recipient + "\n\nMessage:\n";
 
     const msg = {
         to: "vhex.eip@gmail.com",
@@ -35,9 +35,9 @@ app.get('/send-email-vhex', (req, res) => {
 app.get('/send-email-customer', (req, res) => {
     res.send('Welcome to the Sendgrid Email Server');
 
-    const { recipient, sender, topic, text, firstName, lastName } = req.query;
+    const { recipient, sender, topic, text, firstname, lastname } = req.query;
 
-    var welcomeMe = "Hello " + firstName + " " + lastName + ",\n\n";
+    var welcomeMe = "Hello " + firstname + " " + lastname + ",\n\n";
 
     const msg = {
         to: recipient,
