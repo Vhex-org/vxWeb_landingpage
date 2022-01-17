@@ -1,71 +1,110 @@
 import '../styles/global.css';
 import '../styles/Account.css';
+import logo_crayon from '../assets/crayon.png';
+
+import React, { useState } from 'react';
 
 function Account() {
-    function signInToSignUp() {
-        var toShow = document.querySelector(".create-account-content");
-        var toHide = document.querySelector(".login-account-content");;
+    const [accountCategory, setCategory] = useState('Informations');
+    const userEmail = localStorage.getItem("user_email");
+    const userPassword = localStorage.getItem("user_password");
 
-        toShow.classList.add("active-account-bloc");
-        toHide.classList.remove("active-account-bloc");
-    }
-
-    function signUpToSignIn() {
-        var toShow = document.querySelector(".login-account-content");
-        var toHide = document.querySelector(".create-account-content");;
-
-        toShow.classList.add("active-account-bloc");
-        toHide.classList.remove("active-account-bloc");
-    }
-
-    function toggleCreatePassword() {
-        const togglePassword = document.querySelector('#toggleCreatePassword');
-        const password = document.querySelector('#createPassword');
-        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-
-        password.setAttribute('type', type);
-        togglePassword.classList.toggle('bi-eye');
-    }
-
-    function toggleCreateConfirmPassword() {
-        const togglePassword = document.querySelector('#toggleCreateConfirmPassword');
-        const password = document.querySelector('#createConfirmPassword');
-        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-
-        password.setAttribute('type', type);
-        togglePassword.classList.toggle('bi-eye');
-    }
-
-    function toggleLoginPassword() {
-        const togglePassword = document.querySelector('#toggleLoginPassword');
-        const password = document.querySelector('#loginPassword');
-        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-
-        password.setAttribute('type', type);
-        togglePassword.classList.toggle('bi-eye');
+    function displayLogout() {
+        if (window.confirm("Êtes-vous sûr de vouloir vous déconnecter ?")) {
+            localStorage.removeItem('user_email');
+            localStorage.removeItem('user_password');
+            window.location.href = "/login";
+        } else {
+            //Do nothing
+        };
     }
 
     return (
-        <div className="account-content">
-            <div className="account-container create-account-content active-account-bloc" onMouseOver={signInToSignUp}>
-                <h1 className="account-title account-sign-up">Sign up</h1>
-                <div className="account-input-container">
-                    <input placeholder="Email"></input>
-                    <input type="password" placeholder="Password" id="createPassword"></input>
-                    <i className="account-pw bi bi-eye-slash" id="toggleCreatePassword" onClick={toggleCreatePassword}></i>
-                    <input type="password" placeholder="Confirm Password" id="createConfirmPassword"></input>
-                    <i className="account-pw bi bi-eye-slash" id="toggleCreateConfirmPassword" onClick={toggleCreateConfirmPassword}></i>
-                </div>
-                <button className="account-send-form">CONFIRMER</button>
+        <div className="my-account-container">
+            <div className="my-account-banner">
+            {(() => {
+                        switch (accountCategory) {
+                            case 'Informations':
+                                return (
+                                    <h1 className="fl-bold-gold">INFORMATIONS</h1>
+                                )
+                            case 'Adresses':
+                                return (
+                                    <h1 className="fl-bold-gold">ADRESSES</h1>
+                                )
+                            case 'Posts':
+                                return (
+                                    <h1 className="fl-bold-gold">POSTS</h1>
+                                )
+                            case 'Commandes':
+                                return (
+                                    <h1 className="fl-bold-gold">COMMANDES</h1>
+                                )
+                            default:
+                                return (
+                                    <h1 className="fl-bold-gold">OOPS</h1>
+                                )
+                        }
+                    })()}
             </div>
-            <div className="account-container login-account-content" onMouseOver={signUpToSignIn}>
-                <h1 className="account-title account-sign-in">Sign in</h1>
-                <div className="account-input-container">
-                    <input placeholder="Email"></input>
-                    <input type="password" placeholder="Password" id="loginPassword"></input>
-                    <i className="account-pw bi bi-eye-slash" id="toggleLoginPassword"  onClick={toggleLoginPassword}></i>
+            <div className="my-account-content">
+                <div className="my-account-left">
+                    <ul style={{listStyleType:'none'}}>
+                        <li className="fl-bold-gold" onClick={() => setCategory("Informations")}>Informations</li>
+                        <li className="fl-bold-gold" onClick={() => setCategory("Adresses")}>Adresses</li>
+                        <li className="fl-bold-gold" onClick={() => setCategory("Commandes")}>Commandes</li>
+                        <li className="fl-bold-gold" onClick={() => setCategory("Posts")}>Posts</li>
+                        <li className="fl-bold-gold" onClick={() => displayLogout()}>Déconnexion</li>
+                    </ul>
                 </div>
-                <button className="account-send-form">CONFIRMER</button>
+                <div className="my-account-right">
+                    {(() => {
+                        switch (accountCategory) {
+                            case 'Informations':
+                                return (
+                                    <div>
+                                        <div className="my-account-info-line">
+                                            <img src={logo_crayon} alt="bouton modifier"></img>
+                                            <h3>Email :</h3>
+                                            <p>{userEmail}</p>
+                                        </div>
+                                        <div className="my-account-info-line">
+                                            <img src={logo_crayon} alt="bouton modifier"></img>
+                                            <h3>Mot de passe :</h3>
+                                            <p>{userPassword}</p>
+                                        </div>
+                                        <div className="my-account-save-container">
+                                            <button className="my-account-save">SAUVEGARDER LES CHANGEMENTS</button>
+                                        </div>
+                                    </div>
+                                )
+                            case 'Adresses':
+                                return (
+                                    <div>
+                                        Adresses
+                                    </div>
+                                )
+                            case 'Posts':
+                                return (
+                                    <div>
+                                        Posts
+                                    </div>
+                                )
+                            case 'Commandes':
+                                return (
+                                    <div>
+                                        Commandes
+                                    </div>
+                                )
+                            default:
+                                return (
+                                    <div>
+                                        Oops somoething went wrong :/
+                                    </div>
+                                )
+                        }
+                    })()}
+                </div>
             </div>
         </div>
     );

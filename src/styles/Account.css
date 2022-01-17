@@ -1,89 +1,96 @@
-.account-content {
+.my-account-container {
+    min-height: 80vh;
+}
+
+.my-account-banner h1 {
+    width: 80vw;
+    background: #002635;
+    padding: 30px 0px;
+    text-align: center;
+    margin: 42px auto;
+}
+
+.my-account-content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin: 80px auto;
-    padding: 50px 5vw;
-    width: 70vw;
-    max-width: 1300px;
-    background-color: #002635;
+    width: 80vw;
+    margin: auto;
 }
 
-.account-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    width: 30vw;
-    margin: 0 2.5vw;
-    height: 420px;
-    opacity: 0.5;
-    padding: 30px;
-    border-radius: 20px;
-    border: 1px solid transparent;
+.my-account-left {
+    width: 30%;
+    padding: 30px 80px 30px 0px;
+    background: #002635;
+    text-align: right;
 }
 
-.account-container.active-account-bloc {
-    opacity: 1;
-    border: 1px solid #B99641;
+.my-account-left ul {
+    padding: 10px 30px 10px 0px;
+    border-right: 1px solid white;
+    margin: 0;
 }
 
-.account-title::first-letter {
-    color: #B99641;
-}
-
-.account-content * {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.account-input-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.account-input-container > input {
-    margin-top: 20px;
-    padding: 10px;
-    background: #001120;
-    border: 0;
-    border-bottom: 1px solid #B99641;
-    color: white;
-    font-weight: bold;
-}
-
-.account-pw {
-    align-self: end;
-    position: relative;
-    margin-top: -30px;
-    right: 10px;
+.my-account-left ul li {
+    font-size: 25px;
+    margin: 10px 0px;
     cursor: pointer;
 }
 
-.account-input-container > input:focus {
-    color: white;
-    font-weight: 200;
-    outline: 1px solid #B99641;
-    border: 0;
+.my-account-left ul li:last-of-type {
+    margin-top: 50px;
 }
 
-.account-input-container > input::placeholder {
-    color: white;
-    font-weight: 200;
+.my-account-right {
+    width: 70%;
+    padding: 30px 0px 30px 0px;
+    background: #002635;
 }
 
-.account-send-form {
+.my-account-container li::marker {
+    display: none;
+}
+
+.my-account-save {
     border-radius: 25px;
     border: 1px solid #B99641;
     background: #001120;
     color: white;
     font-weight: bold;
-    padding: 15px;
-    width: 200px;
-    margin: 30px auto 0;
+    padding: 15px 20px;
+    width: auto;
+    margin: 20px 0px;
+    text-align: center;
 }
 
-.account-send-form:hover {
+.my-account-save:hover {
     background: #B99641;
     color: white;
     cursor: pointer;
+}
+
+.my-account-save-container {
+    width: 100%;
+}
+
+.my-account-info-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.my-account-info-line div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.my-account-info-line p {
+    padding: 7px 15px;
+    margin: 0 5px;
+}
+
+.my-account-info-line img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
 }
