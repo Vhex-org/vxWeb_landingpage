@@ -44,3 +44,7 @@ h1.header_menu_entry {
     margin: auto;
     font-size: 2.4em;
 }
+
+.header_account_container img {
+    cursor: pointer;
+}

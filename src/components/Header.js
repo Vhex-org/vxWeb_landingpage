@@ -5,6 +5,14 @@ import '../styles/global.css';
 import '../styles/Header.css';
 
 function Header() {
+    function verifLocalStorage() {
+        console.log(localStorage.getItem("user_email"));
+        if (localStorage.getItem("user_email") && localStorage.getItem("user_password")) {
+            window.location.href = "/account";
+        } else {
+            window.location.href = "/login";
+        }
+    }
     return (
         <div className="header_container">
             <div className="header_logo_container">
@@ -20,7 +28,7 @@ function Header() {
                 <h1 className="header_menu_entry header_menu_shop">SHOP</h1>
             </div>
             <div className="header_account_container">
-                <a href="/account"><img src={logo_account} alt="logo_account"></img></a>
+                <img onClick={() => verifLocalStorage()} src={logo_account} alt="logo_account"></img>
             </div>
         </div>
     );
