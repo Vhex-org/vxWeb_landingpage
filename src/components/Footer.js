@@ -8,8 +8,7 @@ function Footer() {
                 <h1>POUR NE RIEN RATER</h1>
                 <h2>Inscris-toi à la newsletter</h2>
                 <div className="email-NL-container">
-                    <input className="input-email-NL" placeholder="Email"></input>
-                    <button className="ok-button">OK</button>
+                    <a target="_blank" rel="noreferrer" href="https://cdn.forms-content.sg-form.com/4dbd3c97-88c4-11ec-90e5-12613d3760bf" className="go-to-sg-form">REJOINDRE LA LISTE DE CONTACT</a>
                 </div>
             </div>
             <div className="footer-one-third second-footer-elem">
