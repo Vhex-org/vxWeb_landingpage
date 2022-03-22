@@ -1,0 +1,96 @@
+.my-account-container {
+    min-height: 80vh;
+}
+
+.my-account-banner h1 {
+    width: 80vw;
+    background: #002635;
+    padding: 30px 0px;
+    text-align: center;
+    margin: 42px auto;
+}
+
+.my-account-content {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: auto;
+}
+
+.my-account-left {
+    width: 30%;
+    padding: 30px 80px 30px 0px;
+    background: #002635;
+    text-align: right;
+}
+
+.my-account-left ul {
+    padding: 10px 30px 10px 0px;
+    border-right: 1px solid white;
+    margin: 0;
+}
+
+.my-account-left ul li {
+    font-size: 25px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.my-account-left ul li:last-of-type {
+    margin-top: 50px;
+}
+
+.my-account-right {
+    width: 70%;
+    padding: 30px 0px 30px 0px;
+    background: #002635;
+}
+
+.my-account-container li::marker {
+    display: none;
+}
+
+.my-account-save {
+    border-radius: 25px;
+    border: 1px solid #B99641;
+    background: #001120;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    width: auto;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.my-account-save:hover {
+    background: #B99641;
+    color: white;
+    cursor: pointer;
+}
+
+.my-account-save-container {
+    width: 100%;
+}
+
+.my-account-info-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.my-account-info-line div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.my-account-info-line p {
+    padding: 7px 15px;
+    margin: 0 5px;
+}
+
+.my-account-info-line img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}

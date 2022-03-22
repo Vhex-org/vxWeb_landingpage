@@ -81,6 +81,7 @@
     height: 20vw;
     width: 20vw;
     object-fit: contain;
+    border-radius: 20vw;
 }
 
 .carousel_card_info {
