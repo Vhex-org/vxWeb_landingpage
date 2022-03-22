@@ -2,6 +2,7 @@
     background-color: #002635;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 0 25px;
 }
 
 .footer_container h1 {
@@ -55,4 +56,8 @@
 
 .footer_container .go-to-sg-form:hover {
     border-bottom: 1px solid #B99641;
+}
+
+.footer-one-third ul li {
+    margin-top: 10px;
 }

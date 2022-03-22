@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 33px;
+    padding: 10px 33px;
     background-color: #002635;
     height: 80px;
     position: sticky;

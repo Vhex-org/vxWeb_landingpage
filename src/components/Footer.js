@@ -14,18 +14,15 @@ function Footer() {
             <div className="footer-one-third second-footer-elem">
                 <h1>BESOIN D'AIDE ?</h1>
                 <ul>
-                    <li><a href="/contact">Contact</a></li>
-                    <li>FAQ</li>
+                    <li><a href="mailto:vhex.eip@gmail.com?subject=Prise de contact depuis la Landing Page">Contact</a></li>
                     <li><a href="/story">Qui sommes-nous ?</a></li>
                 </ul>
             </div>
             <div className="footer-one-third third-footer-elem">
                 <h1>SUIVEZ-NOUS</h1>
                 <ul>
-                    <li>Facebook</li>
-                    <li>Github</li>
-                    <li>Twitter</li>
-                    <li>Instagram</li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="https://github.com/Vhex-org">Github</a></li>
                 </ul>
             </div>
         </div>

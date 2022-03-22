@@ -22,13 +22,10 @@ function Header() {
                 </a>
             </div>
             <div className="header_menu_entry_container">
-                <h1 className="header_menu_entry header_menu_blog">BLOG</h1>
-                <h1 className="header_menu_entry header_menu_forum">FORUM</h1>
-                <h1 className="header_menu_entry header_menu_forge">FORGE</h1>
-                <h1 className="header_menu_entry header_menu_shop">SHOP</h1>
+                <h1 className="header_menu_entry header_menu_blog">BIENVENUE CHEZ VHEX</h1>
             </div>
             <div className="header_account_container">
-                <img onClick={() => verifLocalStorage()} src={logo_account} alt="logo_account"></img>
+                <img src={logo_account} alt="logo_account"></img>
             </div>
         </div>
     );

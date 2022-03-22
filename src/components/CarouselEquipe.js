@@ -2,14 +2,14 @@ import '../styles/global.css';
 import '../styles/CarouselEquipe.css';
 import leftArrow from '../assets/left-arrow.png';
 import rightArrow from '../assets/right-arrow.png';
-import Alexandre from '../assets/logo_round_vhex.JPG';
-import Arnaud from '../assets/logo_round_vhex.JPG';
+import Alexandre from '../assets/alexandre_calvet.jpg';
+import Arnaud from '../assets/arnaud_guerout.jpg';
 import Auguste from '../assets/logo_round_vhex.JPG';
-import Gregoire from '../assets/logo_round_vhex.JPG';
-import Octave from '../assets/logo_round_vhex.JPG';
+import Gregoire from '../assets/gregoire_haardt.jpg';
+import Octave from '../assets/octave_mesquita.jpg';
 import Yann from '../assets/logo_round_vhex.JPG';
 import Costa from '../assets/logo_round_vhex.JPG';
-import Pierre from '../assets/logo_round_vhex.JPG';
+import Pierre from '../assets/pierre_ader.jpg';
 
 
 function displayPrevious() {
@@ -82,7 +82,7 @@ function CarouselEquipe() {
     return (
         <div className="landing_page_container">
            <div className="carousel_equipe_container">
-                <h1 className="carousel_title gold-title">OUR TEAM</h1>
+                <h1 className="carousel_title gold-title">NOTRE EQUIPE</h1>
                 <div className="carousel_card_container">
                     <button onClick={displayPrevious} className="left-arrow"><img src={leftArrow} alt="left-arrow"></img></button>
                     <div className="carousel_card diapo-fade-in">
@@ -90,15 +90,15 @@ function CarouselEquipe() {
                         <div className="carousel_card_info">
                             <div className="teammate-names"><h1 className="teammate-name">Yann</h1><h1 className="teammate-name teammate-last-name">MAGNIN</h1></div>
                             <h2>Développeur Console</h2>
-                            <p>No guns, no killing. I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.</p>
+                            <p></p>
                         </div>
                     </div>
                     <div className="carousel_card">
                         <img src={Arnaud} className="carousel_card_img" alt=""></img>
                         <div className="carousel_card_info">
                             <div className="teammate-names"><h1 className="teammate-name">Arnaud</h1><h1 className="teammate-name teammate-last-name">GUEROUT</h1></div>
-                            <h2>Développeur Front-End</h2>
-                            <p>No guns, no killing. I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.</p>
+                            <h2>Développeur Console</h2>
+                            <p></p>
                         </div>
                     </div>
                     <div className="carousel_card">
@@ -106,7 +106,7 @@ function CarouselEquipe() {
                         <div className="carousel_card_info">
                             <div className="teammate-names"><h1 className="teammate-name">Auguste</h1><h1 className="teammate-name teammate-last-name">ALEXANDRE</h1></div>
                             <h2>Développeur Console</h2>
-                            <p>No guns, no killing. I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.</p>
+                            <p></p>
                         </div>
                     </div>
                     <div className="carousel_card">
@@ -114,15 +114,15 @@ function CarouselEquipe() {
                         <div className="carousel_card_info">
                             <div className="teammate-names"><h1 className="teammate-name">Alexandre</h1><h1 className="teammate-name teammate-last-name">CALVET</h1></div>
                             <h2>Développeur Front-End</h2>
-                            <p>No guns, no killing. I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.</p>
+                            <p></p>
                         </div>
                     </div>
                     <div className="carousel_card">
                         <img src={Costa} className="carousel_card_img" alt=""></img>
                         <div className="carousel_card_info">
                             <div className="teammate-names"><h1 className="teammate-name">Costa</h1><h1 className="teammate-name teammate-last-name">BUSHNAQ</h1></div>
-                            <h2>Développeur Coonsole-End</h2>
-                            <p>No guns, no killing. I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.</p>
+                            <h2>Développeur Console</h2>
+                            <p></p>
                         </div>
                     </div>
                     <div className="carousel_card">
@@ -130,7 +130,7 @@ function CarouselEquipe() {
                         <div className="carousel_card_info">
                             <div className="teammate-names"><h1 className="teammate-name">Gregoire</h1><h1 className="teammate-name teammate-last-name">HAARDT</h1></div>
                             <h2>Développeur Back-End</h2>
-                            <p>No guns, no killing. I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.</p>
+                            <p></p>
                         </div>
                     </div>
                     <div className="carousel_card">
@@ -138,7 +138,7 @@ function CarouselEquipe() {
                         <div className="carousel_card_info">
                             <div className="teammate-names"><h1 className="teammate-name">Octave</h1><h1 className="teammate-name teammate-last-name">MESQUITA</h1></div>
                             <h2>Développeur Back-End</h2>
-                            <p>No guns, no killing. I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.</p>
+                            <p></p>
                         </div>
                     </div>
                     <div className="carousel_card">
@@ -146,7 +146,7 @@ function CarouselEquipe() {
                         <div className="carousel_card_info">
                             <div className="teammate-names"><h1 className="teammate-name">Pierre</h1><h1 className="teammate-name teammate-last-name">ADER</h1></div>
                             <h2>Développeur Front-End</h2>
-                            <p>No guns, no killing. I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.</p>
+                            <p></p>
                         </div>
                     </div>
                     <button onClick={displayNext} className="right-arrow"><img src={rightArrow} alt="right-arrow"></img></button>
