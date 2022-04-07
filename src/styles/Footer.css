@@ -2,10 +2,16 @@
     background-color: #002635;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 0 25px;
 }
 
 .footer_container h1 {
     font-size: 24px;
+}
+
+.footer-one-third li a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .footer_container input, .footer_container select, .footer_container textarea{
@@ -41,13 +47,17 @@
     color: #B99641;
 }
 
-.input-email-NL {
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid white;
-    width: 80%;
+.footer_container .go-to-sg-form {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 1px;
+    color: white;
 }
 
-.input-email-NL::placeholder {
-    color: white;
+.footer_container .go-to-sg-form:hover {
+    border-bottom: 1px solid #B99641;
+}
+
+.footer-one-third ul li {
+    margin-top: 10px;
 }

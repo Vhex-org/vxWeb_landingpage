@@ -17,11 +17,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 33px;
+    padding: 10px 33px;
     background-color: #002635;
     height: 80px;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 .header_container img {
@@ -42,4 +43,8 @@
 h1.header_menu_entry {
     margin: auto;
     font-size: 2.4em;
+}
+
+.header_account_container img {
+    cursor: pointer;
 }

@@ -8,3 +8,20 @@ body {
 .gold-title {
     color: #B99641;
 }
+
+.fl-gold::first-letter {
+    color: #B99641;
+}
+
+.fl-bold-gold::first-letter {
+    color: #B99641;
+    font-weight: bold;
+}
+
+a:link {
+    color: #B99641;
+}
+
+a:visited {
+    color: #B99641;
+}
