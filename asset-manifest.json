@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/vxWeb_landingpage/static/css/main.a4ea09ad.chunk.css",
-    "main.js": "/vxWeb_landingpage/static/js/main.604998c1.chunk.js",
-    "main.js.map": "/vxWeb_landingpage/static/js/main.604998c1.chunk.js.map",
-    "runtime-main.js": "/vxWeb_landingpage/static/js/runtime-main.b0ed40fb.js",
-    "runtime-main.js.map": "/vxWeb_landingpage/static/js/runtime-main.b0ed40fb.js.map",
-    "static/js/2.fd7eb94b.chunk.js": "/vxWeb_landingpage/static/js/2.fd7eb94b.chunk.js",
-    "static/js/2.fd7eb94b.chunk.js.map": "/vxWeb_landingpage/static/js/2.fd7eb94b.chunk.js.map",
-    "static/js/3.45926c58.chunk.js": "/vxWeb_landingpage/static/js/3.45926c58.chunk.js",
-    "static/js/3.45926c58.chunk.js.map": "/vxWeb_landingpage/static/js/3.45926c58.chunk.js.map",
+    "main.css": "/vxWeb_landingpage/static/css/main.8f77aa46.chunk.css",
+    "main.js": "/vxWeb_landingpage/static/js/main.94b9e695.chunk.js",
+    "main.js.map": "/vxWeb_landingpage/static/js/main.94b9e695.chunk.js.map",
+    "runtime-main.js": "/vxWeb_landingpage/static/js/runtime-main.1ab09621.js",
+    "runtime-main.js.map": "/vxWeb_landingpage/static/js/runtime-main.1ab09621.js.map",
+    "static/js/2.7779f244.chunk.js": "/vxWeb_landingpage/static/js/2.7779f244.chunk.js",
+    "static/js/2.7779f244.chunk.js.map": "/vxWeb_landingpage/static/js/2.7779f244.chunk.js.map",
+    "static/js/3.c8b90f0b.chunk.js": "/vxWeb_landingpage/static/js/3.c8b90f0b.chunk.js",
+    "static/js/3.c8b90f0b.chunk.js.map": "/vxWeb_landingpage/static/js/3.c8b90f0b.chunk.js.map",
     "index.html": "/vxWeb_landingpage/index.html",
-    "static/css/main.a4ea09ad.chunk.css.map": "/vxWeb_landingpage/static/css/main.a4ea09ad.chunk.css.map",
-    "static/js/2.fd7eb94b.chunk.js.LICENSE.txt": "/vxWeb_landingpage/static/js/2.fd7eb94b.chunk.js.LICENSE.txt",
+    "static/css/main.8f77aa46.chunk.css.map": "/vxWeb_landingpage/static/css/main.8f77aa46.chunk.css.map",
+    "static/js/2.7779f244.chunk.js.LICENSE.txt": "/vxWeb_landingpage/static/js/2.7779f244.chunk.js.LICENSE.txt",
+    "static/media/alexandre_calvet.7a572212.jpg": "/vxWeb_landingpage/static/media/alexandre_calvet.7a572212.jpg",
+    "static/media/arnaud_guerout.ab3145d7.jpg": "/vxWeb_landingpage/static/media/arnaud_guerout.ab3145d7.jpg",
+    "static/media/crayon.ede2cbc8.png": "/vxWeb_landingpage/static/media/crayon.ede2cbc8.png",
+    "static/media/gregoire_haardt.0ae97537.jpg": "/vxWeb_landingpage/static/media/gregoire_haardt.0ae97537.jpg",
     "static/media/logo_account.447c1411.JPG": "/vxWeb_landingpage/static/media/logo_account.447c1411.JPG",
     "static/media/logo_round_vhex.109c86b6.png": "/vxWeb_landingpage/static/media/logo_round_vhex.109c86b6.png",
     "static/media/logo_round_vhex.c443dd1f.JPG": "/vxWeb_landingpage/static/media/logo_round_vhex.c443dd1f.JPG",
-    "static/media/logo_text_vhex.2f6b07e4.JPG": "/vxWeb_landingpage/static/media/logo_text_vhex.2f6b07e4.JPG"
+    "static/media/logo_text_vhex.2f6b07e4.JPG": "/vxWeb_landingpage/static/media/logo_text_vhex.2f6b07e4.JPG",
+    "static/media/octave_mesquita.7c5e53c8.jpg": "/vxWeb_landingpage/static/media/octave_mesquita.7c5e53c8.jpg",
+    "static/media/pierre_ader.3efb946e.jpg": "/vxWeb_landingpage/static/media/pierre_ader.3efb946e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0ed40fb.js",
-    "static/js/2.fd7eb94b.chunk.js",
-    "static/css/main.a4ea09ad.chunk.css",
-    "static/js/main.604998c1.chunk.js"
+    "static/js/runtime-main.1ab09621.js",
+    "static/js/2.7779f244.chunk.js",
+    "static/css/main.8f77aa46.chunk.css",
+    "static/js/main.94b9e695.chunk.js"
   ]
 }
