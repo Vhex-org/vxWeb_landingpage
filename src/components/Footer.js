@@ -15,7 +15,7 @@ function Footer() {
                 <h1>BESOIN D'AIDE ?</h1>
                 <ul>
                     <li><a href="mailto:vhex.eip@gmail.com?subject=Prise de contact depuis la Landing Page">Contact</a></li>
-                    <li><a href="/story">Qui sommes-nous ?</a></li>
+                    <li><a href="/vxWeb_landingpage/story">Qui sommes-nous ?</a></li>
                 </ul>
             </div>
             <div className="footer-one-third third-footer-elem">
