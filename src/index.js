@@ -16,11 +16,11 @@ const Routing = () => {
     <BrowserRouter>
       <Header/>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/contact" element={<ContactForm />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/account" element={<Account />} />
-        <Route path="/story" element={<Story />} />
+        <Route path="/vxWeb_landingpage" element={<App />} />
+        <Route path="/vxWeb_landingpage/contact" element={<ContactForm />} />
+        <Route path="/vxWeb_landingpage/login" element={<Login />} />
+        <Route path="/vxWeb_landingpage/account" element={<Account />} />
+        <Route path="/vxWeb_landingpage/story" element={<Story />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
