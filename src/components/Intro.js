@@ -33,7 +33,7 @@ function Intro() {
                 <br/>
                 Pour finir, il sera nécessaire de cibler des écoles privées en leur proposant des offres préférentielles pour utiliser notre produit à des fins éducatives. Nous pourrons l’effectuer grâce à nos utilisateurs déjà présents qui proposeront notre solution à leurs écoles.<br/>
                 <br/>
-                Pour en savoir plus, découvrez-nous plus en détails <a href="/story">ici</a> !
+                Pour en savoir plus, découvrez-nous plus en détails <a href="/vxWeb_landingpage/story">ici</a> !
             </p>
         </div>
     );
