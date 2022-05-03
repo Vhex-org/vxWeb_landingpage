@@ -17,13 +17,8 @@ function Story() {
                     </div>
                     <div className="story-telling-container">
                         <p className="story-telling fl-bold-gold">
-                            Someone like you. Someone who'll rattle the cages. I'm not wearing hockey pads. I will go back to Gotham and I will fight men Iike this but I will not become an executioner.
-
-                            Hero can be anyone. Even a man knowing something as simple and reassuring as putting a coat around a young boy shoulders to let him know the world hadn't ended. I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.
-
-                            I'm not wearing hockey pads. Swear to me! I'm not wearing hockey pads. It was a dog. It was a big dog. I will go back to Gotham and I will fight men Iike this but I will not become an executioner.
-
-                            Someone like you. Someone who'll rattle the cages. Someone like you. Someone who'll rattle the cages. Accomplice?
+                            En tant qu'étudiants d'EPITECH, nous avons décidé d'entreprendre ce projet dans le cadre de notre Epitech Innovative Project (EIP) correspondant à notre projet de fin de cursus.
+                            Il nous semblait important de rendre ludique l'apprentissage et la compréhension de la programmation en language bas-niveau. C'est pourquoi nous nous sommes associés avec comme objectif commun de créer une console de jeu et une plateforme permettant aux intéressés de prendre en main le bas-niveau et comprendre son fonctionnement dans sa globalité.
                         </p>
                     </div>
                 </div>
@@ -33,13 +28,10 @@ function Story() {
                         <h2 className="">Objectifs</h2>
                     </div>
                     <p className="story-telling fl-bold-gold">
-                        I will go back to Gotham and I will fight men Iike this but I will not become an executioner. Someone like you. Someone who'll rattle the cages. My anger outweights my guilt. Swear to me!
-
-                        Accomplice? I'm gonna tell them the whole thing was your idea. It was a dog. It was a big dog. I'll be standing where l belong. Between you and the peopIe of Gotham.
-
-                        Swear to me! Hero can be anyone. Even a man knowing something as simple and reassuring as putting a coat around a young boy shoulders to let him know the world hadn't ended.
-
-                        I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.                        
+                        Nous avons pour objectif de créer une console de jeu qui devra être construite et utilisée dans sa globalité afin de réaliser des programmes en bas-niveau.
+                        Afin d'acheter leurs console, partager leurs créations, leurs astuces et échanger sur leurs découvertes, nous voulons réaliser un site internet qui permettra de fédérer la communauté autour de notre service.
+                        <br/>
+                        C'est dans cette dynamique que nous souhaitons proposer notre projet Vhex aux écoles d'informatique, dans le but de faciliter l'appretissage et l'accès au bas-niveau.
                     </p>
                 </div>
             </div>
